@@ -10,8 +10,8 @@ The project is the result of an immense amount of effort from software and hardw
 Corporate Partners
 ==================
 
-.. image:: ../../../images/supporters/supporters_logo_EnRoute.png
-    :target:  http://www.enroute.co.jp/home/
+.. image:: ../../../images/supporters/supporters_logo_elab.png
+    :target:  http://elab.co.jp/
 
 .. image:: ../../../images/supporters/supporters_logo_jDrones.png
     :target:  http://www.jDrones.com/home/
@@ -75,6 +75,15 @@ Corporate Partners
 
 .. image:: ../../../images/supporters/supporters_logo_dslrpros.jpg
     :target:  http://www.dslrpros.com/
+
+.. image:: ../../../images/supporters/supporters_logo_harrisaerial.jpg
+    :target:  http://www.harrisaerial.com/
+
+.. image:: ../../../images/supporters/supporters_logo_bubblefly.png
+    :target:  http://www.bubblefly.in/
+
+.. image:: ../../../images/supporters/supporters_logo_altigator.png
+    :target:  http://altigator.com/
 
 How does my company become a partner?
 ===============================================

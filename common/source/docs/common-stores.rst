@@ -7,6 +7,7 @@ Stores
 The following stores are known to stock quality versions of the controllers, telemetry radios, cables etc. 
 recommended for use with ArduPilot (in alphabetical order).
 
+* `Altigator <http://www.altigator.com/>`__
 * `AUAV <http://www.auav.co/>`__
 * `Bask Aerospace <http://www.baskaerospace.com.au/>`__
 * `BlueRobotics <https://www.bluerobotics.com/store/>`__
@@ -15,7 +16,8 @@ recommended for use with ArduPilot (in alphabetical order).
 * `Drotek <https://drotek.com/>`__
 * `Emlid <https://emlid.com/shop/>`__
 * `EnRoute <http://www.enroute.co.jp/>`__
-* `Erle Robotics <https://erlerobotics.com/>`__ 
+* `Erle Robotics <https://erlerobotics.com/>`__
+* `Harris Aerial <https://www.harrisaerial.com/shop/>`__
 * `Hex <http://www.hex.aero/shop/>`__ 
 * `JapanDrones <http://japandrones.com/>`__
 * `jDrones <http://store.jdrones.com/>`__

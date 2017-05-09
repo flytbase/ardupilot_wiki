@@ -24,9 +24,9 @@ Wifi Access Point & DataFlash logging
 .. image:: ../images/apsync-wifiap-dflogger.png
     :target: ../_images/apsync-wifiap-dflogger.png
 
-On start-up an access point is created with name "ardupilot" and password "enRouteArduPilot".
+On start-up an access point is created with name "ardupilot".  The password is "ardupilot" on TX1 and RPi, "enRouteArduPilot" on the Intel Edison.
 
-The user can connect to this access point and then easily connect to ardupilot running on the flight controller by setting their ground station (including Mission Planner) to connect using "UDP".
+The user can connect to this access point and then easily connect to ardupilot running on the flight controller by setting their ground station (including Mission Planner) to connect using "UDP", port 14550.
 
 Dataflash logs are streamed to the companion computer via mavlink and stored on the companion computer's filesystem (as well as on the pixhawk's dataflash).
 Dataflash log files can then be quickly downloaded (over wifi) using a script (Windows users may use `apsync-download-logs <http://firmware.ardupilot.org/Companion/apsync/apsync-download-logs-latest.zip>`__) or you may pull the SD card out of the companion computer.
@@ -51,7 +51,8 @@ Simple Configuration Web page
 .. image:: ../images/apsync-configurator.png
     :target: ../_images/apsync-configurator.png
 
-A light weight webserver will run on the companion computer (perhaps using CherryPy).  The user will be able to connect to the drone using a known URL and change configuration information including:
+A light weight webserver runs on the companion computer (using CherryPy).
+The user can connect to the drone using a known URL (`http://10.0.1.128:8000 <http://10.0.1.128:8000>`__) and change configuration information including:
 
 - wifi access point name and password
 - list of trusted wifi access points
@@ -59,7 +60,7 @@ A light weight webserver will run on the companion computer (perhaps using Cherr
 
 .. warning::
 
-   The APSync project is still in beta.  This Simple Configuration portion is not implemented (yet).
+   The APSync project is still in beta.  This Simple Configuration portion is only partially implemented and currently only allows starting and stopping the simple video stream.
 
 Flexible Video
 ==============
@@ -72,7 +73,7 @@ This allows more reliable and flexible streaming as the ground station can disco
 
 .. warning::
 
-   The APSync project is still in beta.  This Flexible Video portion is not implemented (yet).
+   The APSync project is still in beta.  This Flexible Video portion is not implemented yet.  Currently a video stream is sent to the IP address of the first ground station that requests telemetry data.
 
 .. _apsync-intro-installing-apsync:
 
